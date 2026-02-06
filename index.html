@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhysixEngine | Quantum & Classical Solver</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>PhysixEngine</h1>
+        <ul>
+            <li>Classical</li>
+            <li>Quantum</li>
+            <li>Relativity</li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="chat-box" id="chatBox">
+            <div class="message system">Welcome, Researcher. Ask any physics question—from Newton to Feynman.</div>
+        </section>
+
+        <section class="input-area">
+            <textarea id="userInput" placeholder="e.g., Calculate the wave function of a particle in a box..."></textarea>
+            <button onclick="askQuestion()">Solve</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
